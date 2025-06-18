@@ -10,6 +10,7 @@ if not SECRET_KEY:
     raise ValueError("SECRET_KEY environment variable not set. Please define it in your .env file.")
 DEBUG = True
 ALLOWED_HOSTS = []
+AUTH_USER_MODEL = '_auth.User'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -21,7 +22,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'rest_framework_simplejwt',
-    'users_auth',
+    '_auth',
 ]
 
 REST_FRAMEWORK = {
