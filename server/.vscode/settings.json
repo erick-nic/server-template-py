@@ -1,0 +1,205 @@
+{
+    "editor.fontFamily": "Iosevka Fixed",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13.6,
+    "editor.codeLensFontSize": 13,
+    "editor.tabSize": 4,
+    "editor.fontWeight": "normal",
+    "terminal.integrated.fontFamily": "IosevkaTerm Nerd Font Mono",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "normal",
+    "editor.scrollbar.horizontalScrollbarSize": 8,
+    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.minimap.enabled": false,
+    "editor.tokenColorCustomizations": {
+        "[Dracula Theme]": {
+            "keywords": "#fabffa",
+            "numbers": "#3cd1ff",
+            "types": "#e772ff",
+            "strings": "#ccccff",
+            "functions": "#c487f7",
+            "variables": "#e654b5",
+            "textMateRules": [
+                {
+                    "scope": [
+                        "punctuation.definition.string.begin",
+                        "punctuation.definition.string.end"
+                    ],
+                    "settings": {
+                        "foreground": "#ccccff"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.readwrite.alias.ts",
+                        "string.quoted.single.ts"
+                    ],
+                    "settings": {
+                        "foreground": "#fa5f8d",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.readwrite.alias.tsx",
+                        "string.quoted.single.tsx",
+                    ],
+                    "settings": {
+                        "foreground": "#f8477c",
+                        "fontStyle": "italic"
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.jsx.children.tsx"
+                    ],
+                    "settings": {
+                        "foreground": "#48d6cf",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "punctuation.definition.tag.begin.tsx",
+                        "punctuation.definition.tag.end.tsx",
+                    ],
+                    "settings": {
+                        "foreground": "#FF79C6",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.other.attribute-name.tsx",
+                    ],
+                    "settings": {
+                        "foreground": "#ff96b1",
+                        "fontStyle": "italic",
+                    }
+                },
+                {
+                    "scope": [
+                        "other.source.dart",
+                        "source.dart"
+                    ],
+                    "settings": {
+                        "foreground": "#ff96b1",
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.function-call.generic.python",
+                        "meta.function-call.python",
+                        "meta.member.access.python",
+                        "source.python"
+                    ],
+                    "settings": {
+                        "foreground": "#C487F7",
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.parameter.function-call.python",
+                        "meta.function-call.arguments.python",
+                        "meta.function-call.python",
+                        "meta.member.access.python",
+                        "source.python"
+                    ],
+                    "settings": {
+                        "foreground": "#E772FF",
+                    }
+                },
+            ]
+        }
+    },
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.guides.bracketPairs": "active",
+    "editor.defaultColorDecorators": "auto",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.colorDecoratorsActivatedOn": "hover",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 2,
+    "editor.smartSelect.selectSubwords": true,
+    "editor.autoClosingBrackets": "always",
+    "explorer.confirmDelete": false,
+    "workbench.colorCustomizations": {
+        "[Dracula Theme]": {
+            "editorBracketPairGuide.activeBackground1": "#c681ff",
+            "editorBracketPairGuide.activeBackground4": "#48d6cf",
+            "editorBracketHighlight.foreground4": "#48d6cf",
+            "editorWarning.foreground": "#fa68ff",
+            "editorError.foreground": "#ff3e88",
+            "editorBracketHighlight.foreground1": "#ba90ff",
+        }
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "[Dracula Theme]": {
+            "enabled": true,
+            "rules": {
+                "variable": "#ff96b1",
+                "variable.parameter": "#fa5f8d",
+                "variable.other.readwrite.alias.ts": "#fa5f8d",
+                "variable.other.readwrite.alias.tsx": "#f8477c",
+                "string.quoted.single.ts": "#fa5f8d",
+                "string.quoted.single.tsx": "#f8477c",
+                "meta.jsx.children.tsx": "#48d6cf",
+                "punctuation.definition.tag.begin.tsx": "#FF79C6",
+                "punctuation.definition.tag.end.tsx": "#FF79C6",
+                "entity.other.attribute-name.tsx": "#ff96b1",
+                "class": "#dab2fa",
+                "keyword": {
+                    "foreground": "#ea84ff",
+                    "fontStyle": "italic"
+                },
+                "module": "#E772FF",
+                "parameter": {
+                    "foreground": "#F8477C",
+                    "fontStyle": "italic"
+                },
+                }
+        },
+    },
+    "explorer.confirmDragAndDrop": false,
+    "typescript.updateImporjsonFileMove.enabled": "always",
+    "editor.inlineSuggest.showToolbar": "always",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "workbench.colorTheme": "Dracula Theme",
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "debug.console.fontSize": 13,
+    "debug.console.fontFamily": "Iosevka",
+    "debug.enableStatusBarColor": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "workbench.editor.empty.hint": "hidden",
+    "terminal.integrated.suggest.quickSuggestions": {
+        "other": true,
+        "commands": "on",
+        "arguments": "on",
+        "unknown": "off"
+    },
+    "terminal.integrated.suggest.enabled": true,
+    "editor.inlineSuggest.edits.allowCodeShifting": "horizontal",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "editor.detectIndentation": false
+}
