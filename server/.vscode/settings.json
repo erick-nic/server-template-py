@@ -109,6 +109,20 @@
                         "foreground": "#E772FF",
                     }
                 },
+                {
+                    "scope": [
+                        "punctuation.separator.period.python",
+                        "punctuation.separator.arguments.python",
+                        "punctuation.separator.dict.python",
+                        "meta.member.access.python",
+                        "meta.function-call.arguments.python",
+                        "meta.function-call.python",
+                        "source.python"
+                    ],
+                    "settings": {
+                        "foreground": "#8e8eeb",
+                    }
+                },
             ]
         }
     },
@@ -158,7 +172,7 @@
                     "foreground": "#F8477C",
                     "fontStyle": "italic"
                 },
-                }
+            }
         },
     },
     "explorer.confirmDragAndDrop": false,
